@@ -1,17 +1,17 @@
 import Header from './components/Header'
-import Nav from './components/Nav'
 import Section from './components/Section'
 import Article from './components/Article'
 import SectionInsideArticle from './components/SectionInsideArticle'
 import Aside from './components/Aside'
 import Footer from './components/Footer'
+import Navigation from '../components/Navigation'
 import './Ejercicio1.css'
 
 function Ejercicio1() {
   return (
     <div className="ej1-page">
+      <Navigation />
       <Header />
-      <Nav />
 
       <div className="ej1-content">
         <div className="ej1-content__main">

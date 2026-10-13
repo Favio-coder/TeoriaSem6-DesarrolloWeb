@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import ComponenteHijo from './components/ComponenteHijo'
+import Navigation from '../components/Navigation'
 import './Ejercicio3.css'
 
 function Ejercicio3() {
@@ -7,6 +8,7 @@ function Ejercicio3() {
 
   return (
     <div className="ej3-page">
+      <Navigation />
       <h1 className="ej3-page__title">Ejercicio 3 - Datos del hijo al padre</h1>
 
       <div className="ej3-parent">

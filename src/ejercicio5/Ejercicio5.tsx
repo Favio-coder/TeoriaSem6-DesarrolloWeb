@@ -1,4 +1,5 @@
 import TablaEstudiantes from './components/TablaEstudiantes'
+import Navigation from '../components/Navigation'
 import './Ejercicio5.css'
 
 const estudiantes = [
@@ -11,6 +12,7 @@ const estudiantes = [
 function Ejercicio5() {
   return (
     <div className="ej5-page">
+      <Navigation />
       <h1 className="ej5-page__title">Ejercicio 5 - Tabla de estudiantes</h1>
       <TablaEstudiantes estudiantes={estudiantes} />
     </div>

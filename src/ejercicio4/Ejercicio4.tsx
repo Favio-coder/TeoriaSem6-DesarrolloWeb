@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Hermano1 from './components/Hermano1'
 import Hermano2 from './components/Hermano2'
+import Navigation from '../components/Navigation'
 import './Ejercicio4.css'
 
 type Persona = {
@@ -13,6 +14,7 @@ function Ejercicio4() {
 
   return (
     <div className="ej4-page">
+      <Navigation />
       <h1 className="ej4-page__title">Ejercicio 4 - Hermanos</h1>
 
       <div className="ej4-parent">
