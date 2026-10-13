@@ -7,7 +7,7 @@ import Ejercicio5 from './ejercicio5/Ejercicio5'
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <Routes>
         <Route path="/" element={<Navigate to="/ejercicio1" replace />} />
         <Route path="/ejercicio1" element={<Ejercicio1 />} />
