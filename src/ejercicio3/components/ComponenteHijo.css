@@ -1,0 +1,70 @@
+.ej3-hijo {
+  background-color: #dcfce7;
+  border: 3px solid #22c55e;
+  border-radius: 12px;
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.ej3-hijo__label {
+  align-self: flex-start;
+  background-color: #16a34a;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 0.95rem;
+  padding: 6px 14px;
+  border-radius: 999px;
+}
+
+.ej3-hijo__field {
+  font-weight: 600;
+  color: #374151;
+}
+
+.ej3-hijo__input {
+  width: 100%;
+  max-width: 360px;
+  padding: 10px 14px;
+  border: 2px solid #86efac;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.ej3-hijo__input:focus {
+  border-color: #16a34a;
+}
+
+.ej3-hijo__button {
+  padding: 10px 20px;
+  background-color: #16a34a;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.ej3-hijo__button:hover {
+  background-color: #15803d;
+}
+
+@media (max-width: 767px) {
+  .ej3-hijo {
+    padding: 14px;
+    gap: 10px;
+  }
+
+  .ej3-hijo__label {
+    font-size: 0.85rem;
+  }
+
+  .ej3-hijo__button {
+    width: 100%;
+  }
+}

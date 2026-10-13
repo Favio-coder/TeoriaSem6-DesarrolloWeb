@@ -1,0 +1,68 @@
+.ej4-page {
+  min-height: 100vh;
+  background-color: #f8fafc;
+  padding: 32px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.ej4-page__title {
+  margin: 0;
+  color: #1e3a8a;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.ej4-parent {
+  background-color: #ede9fe;
+  border: 3px solid #7c3aed;
+  border-radius: 14px;
+  padding: 24px;
+  width: 100%;
+  max-width: 860px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.ej4-parent__label {
+  align-self: flex-start;
+  background-color: #7c3aed;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 0.95rem;
+  padding: 6px 14px;
+  border-radius: 999px;
+}
+
+.ej4-parent__children {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+
+@media (max-width: 767px) {
+  .ej4-page {
+    padding: 16px 10px;
+  }
+
+  .ej4-page__title {
+    font-size: 1.3rem;
+  }
+
+  .ej4-parent {
+    padding: 14px;
+    gap: 14px;
+  }
+
+  .ej4-parent__label {
+    font-size: 0.85rem;
+  }
+
+  .ej4-parent__children {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+}

@@ -1,0 +1,85 @@
+.ej3-page {
+  min-height: 100vh;
+  background-color: #f8fafc;
+  padding: 32px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.ej3-page__title {
+  margin: 0;
+  color: #1e3a8a;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.ej3-parent {
+  background-color: #dbeafe;
+  border: 3px solid #2563eb;
+  border-radius: 14px;
+  padding: 24px;
+  width: 100%;
+  max-width: 640px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+}
+
+.ej3-parent__label {
+  align-self: flex-start;
+  background-color: #2563eb;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 0.95rem;
+  padding: 6px 14px;
+  border-radius: 999px;
+}
+
+.ej3-parent__result {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+  padding: 18px 22px;
+  width: 100%;
+  text-align: center;
+}
+
+.ej3-parent__result-title {
+  margin: 0 0 10px;
+  font-size: 1.1rem;
+  color: #111827;
+}
+
+.ej3-parent__result-value {
+  margin: 0;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #16a34a;
+}
+
+.ej3-parent__result-empty {
+  margin: 0;
+  color: #9ca3af;
+}
+
+@media (max-width: 767px) {
+  .ej3-page {
+    padding: 16px 10px;
+  }
+
+  .ej3-page__title {
+    font-size: 1.3rem;
+  }
+
+  .ej3-parent {
+    padding: 14px;
+    gap: 14px;
+  }
+
+  .ej3-parent__label {
+    font-size: 0.85rem;
+  }
+}

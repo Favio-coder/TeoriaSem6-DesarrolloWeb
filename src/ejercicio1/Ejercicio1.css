@@ -1,0 +1,50 @@
+.ej1-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f8fafc;
+}
+
+/* ===== PC (>= 1024px): article a la izquierda, aside a la derecha ===== */
+.ej1-content {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 0;
+  padding: 0;
+}
+
+.ej1-content__main,
+.ej1-content__side {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+/* ===== Tablet (768px - 1023px) ===== */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .ej1-content {
+    grid-template-columns: 2fr 1fr;
+    gap: 0;
+    padding: 0;
+  }
+
+  .ej1-content__main,
+  .ej1-content__side {
+    gap: 0;
+  }
+}
+
+/* ===== Móvil (<= 767px): una sola columna, aside debajo del section ===== */
+@media (max-width: 767px) {
+  .ej1-content {
+    grid-template-columns: 1fr;
+    gap: 0;
+    padding: 0;
+  }
+
+  .ej1-content__main,
+  .ej1-content__side {
+    gap: 0;
+  }
+}

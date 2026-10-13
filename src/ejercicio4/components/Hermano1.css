@@ -1,0 +1,65 @@
+.ej4-hermano1 {
+  background-color: #ffedd5;
+  border: 3px solid #f97316;
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.ej4-hermano1__label {
+  align-self: flex-start;
+  background-color: #ea580c;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 0.95rem;
+  padding: 6px 14px;
+  border-radius: 999px;
+}
+
+.ej4-hermano1__field {
+  font-weight: 600;
+  color: #374151;
+  font-size: 0.95rem;
+}
+
+.ej4-hermano1__input {
+  width: 100%;
+  padding: 10px 14px;
+  border: 2px solid #fed7aa;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.ej4-hermano1__input:focus {
+  border-color: #ea580c;
+}
+
+.ej4-hermano1__button {
+  margin-top: 6px;
+  padding: 10px 16px;
+  background-color: #ea580c;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.ej4-hermano1__button:hover {
+  background-color: #c2410c;
+}
+
+@media (max-width: 767px) {
+  .ej4-hermano1 {
+    padding: 14px;
+    gap: 8px;
+  }
+
+  .ej4-hermano1__label {
+    font-size: 0.85rem;
+  }
+}

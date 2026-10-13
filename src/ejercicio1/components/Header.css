@@ -1,0 +1,43 @@
+.ej1-header {
+  background-color: #1e3a8a;
+  color: #ffffff;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.ej1-header__title {
+  margin: 0;
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+
+.ej1-header__subtitle {
+  margin: 0;
+  font-size: 1rem;
+  color: #bfdbfe;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .ej1-header {
+    padding: 0;
+  }
+
+  .ej1-header__title {
+    font-size: 1.75rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .ej1-header {
+    padding: 0;
+  }
+
+  .ej1-header__title {
+    font-size: 1.4rem;
+  }
+
+  .ej1-header__subtitle {
+    font-size: 0.85rem;
+  }
+}

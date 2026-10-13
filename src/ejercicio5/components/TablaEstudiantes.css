@@ -1,0 +1,21 @@
+.ej5-table {
+  width: 100%;
+  max-width: 600px;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  font-size: 1rem;
+}
+
+.ej5-table th,
+.ej5-table td {
+  border: 1px solid #333333;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+.ej5-table th {
+  background-color: #1e3a8a;
+  color: #ffffff;
+}
+
+

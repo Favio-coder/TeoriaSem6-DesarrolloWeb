@@ -1,0 +1,19 @@
+.ej1-article {
+  background-color: #dbeafe;
+  border: 2px dashed #60a5fa;
+  border-radius: 0;
+  padding: 0;
+  margin: 0;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .ej1-article {
+    padding: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .ej1-article {
+    padding: 0;
+  }
+}

@@ -1,0 +1,90 @@
+.comp4 {
+  background-color: #ecf755;
+  border: 3px solid #ecf755;
+  border-radius: 12px;
+  padding: 24px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+
+.comp4__label {
+  align-self: flex-start;
+  color: #111827;
+  font-weight: 700;
+  font-size: 0.95rem;
+  padding: 6px 14px;
+  border-radius: 999px;
+}
+
+.comp4__card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+  padding: 20px 24px;
+  width: 100%;
+  max-width: 380px;
+}
+
+.comp4__card-title {
+  margin: 0 0 14px;
+  font-size: 1.2rem;
+  color: #111827;
+  text-align: center;
+  border-bottom: 2px solid #e5e7eb;
+  padding-bottom: 10px;
+}
+
+.comp4__list {
+  margin: 0;
+}
+
+.comp4__row {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 8px 0;
+  border-bottom: 1px dashed #e5e7eb;
+}
+
+.comp4__row:last-child {
+  border-bottom: none;
+}
+
+.comp4__key {
+  font-weight: 700;
+  color: #4b5563;
+}
+
+.comp4__value {
+  margin: 0;
+  color: #111827;
+  text-align: right;
+}
+
+@media (max-width: 767px) {
+  .comp4 {
+    padding: 14px;
+    gap: 10px;
+  }
+
+  .comp4__label {
+    font-size: 0.85rem;
+  }
+
+  .comp4__card {
+    padding: 16px;
+  }
+
+  .comp4__row {
+    flex-direction: column;
+    gap: 2px;
+    text-align: center;
+  }
+
+  .comp4__value {
+    text-align: center;
+  }
+}

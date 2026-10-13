@@ -1,0 +1,30 @@
+.comp1 {
+  background-color: #5f85b7;
+  padding: 24px;
+  width: 100%;
+  max-width: 720px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+
+.comp1__label {
+  align-self: flex-start;
+  color: #000000;
+  font-weight: 700;
+  font-size: 0.95rem;
+  padding: 6px 14px;
+  border-radius: 999px;
+}
+
+@media (max-width: 767px) {
+  .comp1 {
+    padding: 14px;
+    gap: 10px;
+  }
+
+  .comp1__label {
+    font-size: 0.85rem;
+  }
+}
