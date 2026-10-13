@@ -4,7 +4,7 @@ import { defineConfig } from 'vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/sem6/',
+  base: '/TeoriaSem6-DesarrolloWeb/',
   plugins: [
     react(),
     babel({ presets: [reactCompilerPreset()] })
